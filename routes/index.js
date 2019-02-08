@@ -22,4 +22,8 @@ router.get('/services', (req, res, next) => {
   res.render('index', { title: 'Services' });
 });
 
+router.get('/favThings', (req, res, next) => {
+  res.render('index', { title: 'Favourites' });
+});
+
 module.exports = router;
