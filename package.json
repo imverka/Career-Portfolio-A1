@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2019-lesson4a",
+  "name": "comp308-w2019-lesson5a",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
     "morgan": "~1.9.0",
@@ -33,10 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imverka/COMP308-W2019-Lesson4A.git"
+    "url": "git+https://github.com/imverka/COMP308-W2019-Lesson5A.git"
   },
   "bugs": {
-    "url": "https://github.com/imverka/COMP308-W2019-Lesson4A/issues"
+    "url": "https://github.com/imverka/COMP308-W2019-Lesson5A/issues"
   },
-  "homepage": "https://github.com/imverka/COMP308-W2019-Lesson4A#readme"
+  "homepage": "https://github.com/imverka/COMP308-W2019-Lesson5A#readme"
 }
