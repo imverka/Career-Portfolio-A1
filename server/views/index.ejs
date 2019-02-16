@@ -1,40 +1,34 @@
 <% include ./partials/header.ejs %>
 
-  <!-- <div class="container">
-    <div class="jumbotron">
-        <h1 class="display-4">Contacts</h1>
-        <% if(title == "Contact") { %>
-          <a class="btn btn-primary" href="/contact-list" role="button">Link</a>
-
-        <% }%>
+<% if(title == "Home") { %>
+<a href="/"></a>
+<div class="about_section">
+  <div class="container">
+    <div class="row">
+      <div class="about_heading">
+        <h1>Maninderpal Singh</h1>
+        <span class="about_image"><i class="fas fa-save" aria-hidden="true"></i></span>
+        
       </div>
-  </div> -->
-
-  <% if(title == "Home") { %>
-    <a href="/"></a>
-    <div class="container">
-    <div class="jumbotron">
-      <img src="../../public/Content/logo.PNG" alt="">
-      <h1 class="display-4">Maninder's Career Portfolio</h1>
-        <p class="lead"> "To have fun in my journey through life and learn from my mistakes" </p>
-
-        <p > Welcome to my Career Portfolio website. My site contains description of my projects that I made during my Bachelor's and Master's. 
-          <br>I am currently pursuing Software Engineering Technolgy in Centennial College will be graduating in April 2019.
+      <div class="about_text">
+        <p class="lead">
+          "To have fun in my journey through life and learn from my mistakes"
         </p>
+        <p>
+          Welcome to my Career Portfolio website. My site contains description
+          of my projects that I made during my Bachelor's and Master's. <br />I
+          am currently pursuing Software Engineering Technolgy in Centennial
+          College will be graduating in April 2019.
+        </p>
+      </div>
     </div>
   </div>
-    <% }%>
+</div>
 
-    <% if(title == "About me") { %>
-      <a href="/about"></a>
-      <% }%>
-
-      <% if(title == "Projects") { %>
-        <a href="/projects"></a>
-        <% }%>
-
-        <% if(title == "Services") { %>
-          <a href="/Services"></a>
-          <% }%>
-
-  <% include ./partials/footer.ejs %>
+<% }%> <% if(title == "About me") { %>
+<a href="/about"></a>
+<% }%> <% if(title == "Projects") { %>
+<a href="/projects"></a>
+<% }%> <% if(title == "Services") { %>
+<a href="/Services"></a>
+<% }%> <% include ./partials/footer.ejs %>
