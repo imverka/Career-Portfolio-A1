@@ -1,19 +1,6 @@
 /* Custom CSS goes here */
-.navbar-brand {
-  color: #000 !important;
-}
-.navbar-default .navbar-nav > li > a:hover {
-  color: white !important;
-  background-color: #59c0db !important;
-}
 
-.navbar #nav > .active > a {
-  color: #59c0db !important;
-}
-
-
-/*===============================================about-section=====================================*/
-
+/* abour css */
 .about_section,
 .profile_section,
 .project_sec {
@@ -95,8 +82,7 @@ span.about_image:before {
   background: #fff;
 }
 
-/*======================================profile-section=======================================*/
-
+/* profile css */
 .profile_text {
   width: 100%;
   float: left;
@@ -141,8 +127,8 @@ span.about_image:before {
   float: left;
   padding-top: 35px;
 }
-/*===================================project-section============================*/
 
+/* project css */
 .project_border {
   width: 100%;
   float: left;
@@ -164,7 +150,7 @@ img.image_border {
   margin: 0 auto;
   display: block;
   padding: 15px;
-  /* border-radius: 50%; */
+
 }
 .project_text {
   width: 100%;
@@ -176,12 +162,10 @@ img.image_border {
   padding-top: 35px;
 }
 
-/*===================================contact-section============================*/
+/* contact css */
 .contact_section {
   width: 100%;
   float: left;
-  /*margin:40px;*/
-  background: url(../images/blue_background_1.jpg);
   padding: 40px 0;
 }
 .contact_heading {
@@ -266,7 +250,8 @@ button.btn.btn-default.color:hover {
   border: 1px solid #fff;
   color: #fff;
 }
-/*===================================projects-page============================*/
+
+/* project css */
 img.image_project_border {
   width: 100%;
   float: none;
@@ -276,7 +261,7 @@ img.image_project_border {
   /* border-radius: 50%; */
 }
 
-/*===============================footer==================*/
+/* footer css */
 footer {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
