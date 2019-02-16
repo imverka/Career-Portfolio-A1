@@ -35,6 +35,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../../public')));
 app.use(express.static(path.join(__dirname, '../../node_modules')));
+app.use('/public/Assets/images', express.static('./public/Assets/images'));
+app.use('/public/Assets', express.static('./public/Assets'));
 
 app.use('/', indexRouter);
 app.use('/contact-list', contactRouter);

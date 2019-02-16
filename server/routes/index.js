@@ -7,12 +7,12 @@ router.get('/', indexController.diplayHomePage);
 
 router.get('/about', indexController.displayAboutPage);
 
-router.get('/contact', indexController.displayContactPage);
+router.get('/contactA', indexController.displayContactPage);
 
-router.get('/products', indexController.displayProductPage);
+router.get('/projects', indexController.displayProjectsPage);
 
-router.get('/services', indexController.displayAboutPage);
+router.get('/services', indexController.displayServicesPage);
 
-router.get('/favThings', indexController.diplayFavThings);
+//router.get('/favThings', indexController.diplayFavThings);
 
 module.exports = router;

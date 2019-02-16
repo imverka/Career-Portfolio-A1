@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2019-lesson5a",
+  "name": "comp308-w2019-assignment1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6"
   },
-  "description": "MongoDB demo",
+  "description": "Maninder's Career Portfolio",
   "main": "server.js",
   "author": "Maninderpal Singh",
   "license": "ISC",
@@ -34,10 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imverka/COMP308-W2019-Lesson5A.git"
+    "url": "git+https://github.com/imverka/Career-Portfolio-A1.git"
   },
   "bugs": {
-    "url": "https://github.com/imverka/COMP308-W2019-Lesson5A/issues"
+    "url": "https://github.com/imverka/Career-Portfolio-A1/issues"
   },
-  "homepage": "https://github.com/imverka/COMP308-W2019-Lesson5A#readme"
+  "homepage": "https://github.com/imverka/Career-Portfolio-A1#readme"
 }

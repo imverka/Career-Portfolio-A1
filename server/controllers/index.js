@@ -6,19 +6,19 @@ module.exports.diplayHomePage = (req, res, next) => {
   }
 
   module.exports.displayAboutPage = (req, res, next) => {
-    res.render('index', { title: 'About' });
+    res.render('about', { title: 'About me' });
   }
 
   module.exports.displayContactPage = (req, res, next) => {
-    res.render('index', { title: 'Contact' });
+    res.render('contactA', { title: 'Contact me' });
   }
 
-  module.exports.displayProductPage = (req, res, next) => {
-    res.render('index', { title: 'Products' });
+  module.exports.displayProjectsPage = (req, res, next) => {
+    res.render('projects', { title: 'Projects' });
   }
 
-  module.exports,displaySerPage = (req, res, next) => {
-    res.render('index', { title: 'Services' });
+  module.exports.displayServicesPage = (req, res, next) => {
+    res.render('services', { title: 'Services' });
   }
 
   module.exports.diplayFavThings = (req, res, next) => {
