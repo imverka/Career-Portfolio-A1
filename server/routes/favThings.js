@@ -1,6 +1,6 @@
 let express = require('express');
 let router = express.Router();
-let mongoose = require('mongoose');
+
 
 //create reference to the contact model
 let things = require('../models/favourite-things');
